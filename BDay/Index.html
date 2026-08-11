@@ -1,0 +1,92 @@
+<!-- ======================= index.html ======================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Albino — Ultimate Birthday</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="kicker">✦ HAPPY BIRTHDAY ✦</div>
+    <h1 class="title">My Black Albino</h1>
+    <div class="divider"></div>
+    <p class="subtitle">Wishing you another beautiful year of your incredible journey. Here's to the moments that make life extraordinary.</p>
+    <a href="#gallery" class="btn">EXPLORE</a>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
+  <p class="subtitle">Here are some of my favorite moments of you.</p>
+  <div class="gallery">
+    <video class="gallery-video" muted autoplay loop playsinline poster="assets/images/WhatsApp Image 2026-08-11 at 23.16.42.jpeg">
+      <source src="assets/Videos/WhatsApp Video 2026-08-11 at 23.16.41.mp4" type="video/mp4">
+    </video>
+    <video class="gallery-video" muted autoplay loop playsinline poster="assets/images/WhatsApp Image 2026-08-11 at 23.16.45.jpeg">
+      <source src="assets/Videos/WhatsApp Video 2026-08-11 at 23.16.42.mp4" type="video/mp4">
+    </video>
+    <video class="gallery-video" muted autoplay loop playsinline poster="assets/images/WhatsApp Image 2026-08-11 at 23.16.45 (1).jpeg">
+      <source src="assets/Videos/WhatsApp Video 2026-08-11 at 23.16.43.mp4" type="video/mp4">
+    </video>
+    <img class="gallery-photo" src="assets/images/WhatsApp Image 2026-08-11 at 23.16.45.jpeg" alt="Birthday memory 2">
+    <img class="gallery-photo" src="assets/images/WhatsApp Image 2026-08-11 at 23.16.45 (1).jpeg" alt="Birthday memory 3">
+    <video class="gallery-video" muted autoplay loop playsinline poster="assets/images/WhatsApp Image 2026-08-11 at 23.16.42.jpeg">
+      <source src="assets/Videos/WhatsApp Video 2026-08-11 at 23.17.07.mp4" type="video/mp4">
+    </video>
+    <video class="gallery-video" muted autoplay loop playsinline poster="assets/images/WhatsApp Image 2026-08-11 at 23.16.45.jpeg">
+      <source src="assets/Videos/WhatsApp Video 2026-08-11 at 23.18.08.mp4" type="video/mp4">
+    </video>
+    <img class="gallery-photo" src="assets/images/WhatsApp Image 2026-08-11 at 23.16.42.jpeg" alt="Birthday memory 1">
+    <video class="gallery-video" muted autoplay loop playsinline poster="assets/images/WhatsApp Image 2026-08-11 at 23.16.45 (1).jpeg">
+      <source src="assets/Videos/WhatsApp Video 2026-08-11 at 23.17.32.mp4" type="video/mp4">
+    </video>
+    <video class="gallery-video" muted autoplay loop playsinline poster="assets/images/WhatsApp Image 2026-08-11 at 23.16.45.jpeg">
+      <source src="assets/Videos/WhatsApp Video 2026-08-11 at 23.16.43 (1).mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+<!-- MESSAGE -->
+<section class="message-wrap">
+  <div class="message-kicker">A MESSAGE FOR YOU</div>
+  <h2 class="message-title">Dear Black Albino</h2>
+  <div class="divider"></div>
+  <div class="message-card">
+    <div class="cake">🎂</div>
+    <div class="quote">"Hey mama, I know this is not the birthday gift or surprise you expected but I hope you like it. I want to use this opportunity to wish you a happy birthday and to remind you how much you mean to me. I celebrate everything that makes you uniquely wonderful. Your brighten every room, your laughter is contagious, and your spirit inspires everyone around you."</div>
+    <div class="message-sub">May this year bring you endless joy, unexpected adventures, and all the beautiful things you deserve. Here's to another year of being extraordinary.</div>
+  </div>
+</section>
+
+<!-- GUESTBOOK
+<section class="section guestbook">
+  <h2>Leave a Birthday Wish</h2>
+  <textarea id="wishInput" placeholder="Write your message..."></textarea>
+  <button id="sendWish">Send Wish 💛</button>
+  <div class="wishes" id="wishes"></div>
+</section> -->
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <video id="lightboxVideo" controls autoplay loop muted playsinline></video>
+</div>
+
+<!-- MUSIC BUTTON -->
+<div class="music-container">
+  <button class="mute" id="muteBtn">⏸</button>
+  <div class="click-hint">Click me!</div>
+</div>
+<audio id="music" loop autoplay>
+  <source src="assets/50cent_-_In_the_club.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
